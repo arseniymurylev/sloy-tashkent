@@ -110,7 +110,9 @@ body.menu-open .burger i:last-child{transform:translateY(-3.5px) rotate(-45deg)}
   .hero .line{display:inline}.hero .line > span{display:inline}
   .hero h1{max-width:none;text-wrap:balance}
   .hero-media picture img{object-position:50% 38%}
+  .hero .actions .btn{width:100%;justify-content:center}
 }
+@media (max-width:400px){.btn{padding:15px 22px;font-size:14px}.hero .lead{font-size:15px}}
 .case .link,footer a,.nav .logo{min-height:32px;display:inline-flex;align-items:center}
 
 /* ---------- бегущая строка ---------- */
